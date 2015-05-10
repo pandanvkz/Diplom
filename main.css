@@ -1,0 +1,116 @@
+
+.main-area {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 1200px;
+    height: 800px;
+}
+
+.area-block {   
+}
+
+.listwidgets {    
+    right: 0;
+    background: white;
+    width: 400px;
+    height: 800px;
+}
+
+.notecase {   
+    width: 800px;
+    min-height: 100px;    
+}
+
+.notecase.hover {
+    right: 0;
+    background: #c8ebc8;
+    width: 800px;
+    min-height: 100px;
+    
+}
+.notecase.active {
+    right: 0;
+    background: #b9f0fa;
+    width: 800px;
+    min-height: 100px;
+    
+}
+.notecase.active {border: medium solid green}
+        .notecase.hover {background-color: lightgreen}
+
+.parentcase {
+    display: flex;
+    width: 800px;
+    height: 600px;
+}
+
+.rightcase {
+    right: 0;
+    background: white;
+    width: 400px;
+    height: inherit;    
+}
+.rightcase.hover {
+    right: 0;
+    background: #c8ebc8;
+    width: 400px;
+    height: inherit;
+    
+}
+.rightcase.active {
+    right: 0;
+    background: #b9f0fa;
+    width: 400px;
+    height: inherit;    
+}
+.rightcase.active {border: medium solid green}
+        .leftcase.hover {background-color: lightgreen}
+
+.leftcase {
+    left: 0;
+    background: white;    
+    width: 400px;
+    height: inherit;
+
+}
+.leftcase.hover {
+    right: 0;
+    background: #c8ebc8;
+    width: 400px;
+    height: inherit;
+
+}
+.leftcase.active {
+    right: 0;
+    background: #b9f0fa;
+    width: 400px;
+    height: inherit;
+
+}
+.leftcase.active {border: medium solid green}
+        .leftcase.hover {background-color: lightgreen}
+
+.redrec{
+    
+    background: #ff0000;
+    width: 170px;
+    height: 130px;
+}
+
+.bluerec{
+    
+    background: blue;
+    width: 170px;
+    height: 130px;
+}
+
+.drag {
+    
+}
+
+.dragnote {
+    min-height: 100px;
+    min-width: 130px;
+    background: #ff0;
+}
